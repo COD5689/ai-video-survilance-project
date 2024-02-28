@@ -1,0 +1,72 @@
+body{
+    background-size: cover;
+}
+
+.h{
+    color: azure;
+    background-color: rgb(74, 130, 179);
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+.hello{
+    font-size: 9px;
+}
+
+button{
+    color: aliceblue;
+    background-color: blueviolet;
+    font-size: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: rgb(134, 120, 120);
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    line-height: 3;
+    text-align: center;
+    font-size: 10px;
+}
+
+input{
+    width: 15%;
+}
+
+.hed{
+    background-color: yellowgreen;
+    padding: 5px;
+    font-size: 15px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.he{
+    background-color: red;
+    padding: 5px;
+    font-size: 15px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+canvas{
+    border-radius: 10px;
+    margin-top: 115px;
+    
+    animation-name: border;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes border {
+    to{box-shadow: 10px 10px 10px grey;}
+    from{box-shadow: 10px 10px 10px rgb(0, 0, 0);}
+}
